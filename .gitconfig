@@ -1,0 +1,39 @@
+[alias]
+	in  = init
+	st  = status
+	a   = add -A
+	c   = !git add -A && git commit -S --signoff -m
+	cc  = rev-list HEAD --count
+	d   = diff --color-words
+	dh  = diff --color-words head
+	l   = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %C(white)%s %Creset- %C(bold blue)%an%Creset, %C(green)%ar%Creset'
+	ll  = log --stat --abbrev-commit
+	tg  = tag
+	psh = push -u origin master
+	p   = push --all
+	pt  = push --tags
+	sc  = shortlog -s
+	r   = remote add origin
+
+[color]
+	diff        = auto
+	status      = auto
+	branch      = auto
+	interactive = auto
+	pager       = true
+	ui          = auto
+
+[core]
+	autocrlf    = false
+	compression = 9
+
+[credential]
+	helper = winstore
+
+[repack]
+	usedeltabaseoffset = true
+
+[user]
+	email      = kirk5bucuk@gmail.com
+	name       = Ogün Karakuş
+	signingkey = 2E4F0EF1
