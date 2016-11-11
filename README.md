@@ -4,7 +4,7 @@
 
 ## License
 
-This repository is licensed under the [MIT license][2].
+All code is licensed under the [MIT license][2] in the repository.
 
 [1]: https://github.com/ogunkarakus
 [2]: https://opensource.org/licenses/MIT
