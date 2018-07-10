@@ -76,7 +76,7 @@
     untracked = cyan
 
 [core]
-    autocrlf    = true
+    autocrlf    = false
     compression = 9
     editor      = vim
     filemode    = false
